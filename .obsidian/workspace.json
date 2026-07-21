@@ -1,0 +1,265 @@
+{
+  "main": {
+    "id": "fd8688f4e8d6c2ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "f061fb795cba3efc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbad5f2fdd633a7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-coding-tips/markdown-syntax-essential.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "markdown-syntax-essential.md"
+            }
+          },
+          {
+            "id": "e99b22a49441964e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-coding-tips/structuring-coding-journey.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "structuring-coding-journey.md"
+            }
+          },
+          {
+            "id": "2e9c7907d3687ea3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-coding-tips/github-repository-update.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "github-repository-update.md"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fbebc0782b0bf44e",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb884edb0d82c344",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ebe942001482ef5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d5176432b7a2408c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "67305a4af3a9c7c8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "da3007111141615f",
+    "type": "split",
+    "children": [
+      {
+        "id": "601cc8f9f0175e87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2f41fe0039be84a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/set_repository_to_track_progress.md.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for set_repository_to_track_progress.md"
+            }
+          },
+          {
+            "id": "7a1b6dd9bc6a2813",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/set_repository_to_track_progress.md.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from set_repository_to_track_progress.md"
+            }
+          },
+          {
+            "id": "3534259a26c2a359",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8a4fcb7733c25cc3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3c133446ffd4a98f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/set_repository_to_track_progress.md.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of set_repository_to_track_progress.md"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2e9c7907d3687ea3",
+  "lastOpenFiles": [
+    "01-notes/building-api.md.md",
+    "06-coding-tips/github-repository-update.md.md",
+    "01-notes/api.md.md",
+    "06-coding-tips/structuring-coding-journey.md.md",
+    "[Ultimate.md",
+    "[HTTP.md",
+    "06-coding-tips/markdown-syntax-essential.md.md",
+    "01-notes/numpy.md.md",
+    "05-weekly-summary/20260720-20260727/20260721.md.md",
+    "05-weekly-summary/daily-log-template.md.md",
+    "Untitled.md",
+    "06-coding-tips/github-workflow-update.md.md",
+    "05-weekly-summary/20260720-20260727",
+    "03-cheatsheets/Pasted image 20260427211020.png",
+    "01-notes/images",
+    "03-cheatsheets/Pasted image 20260514203756.png",
+    "03-cheatsheets/Pasted image 20260427211013.png",
+    "03-cheatsheets/Pasted image 20260427211009.png",
+    "01-notes/pandas.md.md",
+    "01-notes/set_repository_to_track_progress.md",
+    "01-notes/complete-numpy-tutorial/numpy-tutorial/Numpy Tutorial/numpy_tutorial.ipynb",
+    "01-notes/complete-numpy-tutorial/numpy-tutorial/Numpy Tutorial",
+    "01-notes/complete-numpy-tutorial/practice.ipynb",
+    "01-notes/complete-numpy-tutorial/numpy-tutorial",
+    "01-notes/complete-numpy-tutorial",
+    "README.md",
+    "Untitled",
+    "06-coding-tips",
+    "daily-log/day07.md.md",
+    "daily-log/day06.md.md",
+    "daily-log/day05.md.md",
+    "daily-log/day04.md.md",
+    "daily-log/day03.md.md",
+    "daily-log/day02.md.md",
+    "daily-log/day01.md.md",
+    "05-weekly-summary",
+    "Pasted image 20260514203756.png",
+    "notes/set_repository_to_track_progress.md.md",
+    "daily-log/day13.md.md",
+    "daily-log/day12.md.md",
+    "daily-log/day11.md.md",
+    "Pasted image 20260427211009.png",
+    "Pasted image 20260427211020.png",
+    "Pasted image 20260427211013.png",
+    "01-notes/complete-pandas-tutorial/venv/Lib/site-packages/scipy/ndimage/tests/dots.png",
+    "01-notes/complete-pandas-tutorial/images/thumbnail.jpg"
+  ]
+}
