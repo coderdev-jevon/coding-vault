@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-weekly-summary/20260720-20260727/20260622.md.md",
+                "file": "01-notes/building-api.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260622.md"
+              "title": "building-api.md"
             }
           },
           {
@@ -121,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "da3007111141615f",
@@ -229,8 +228,8 @@
   },
   "active": "2e9c7907d3687ea3",
   "lastOpenFiles": [
-    "01-notes/building-api.md.md",
     "05-weekly-summary/20260720-20260727/20260622.md.md",
+    "01-notes/building-api.md.md",
     "06-coding-tips/markdown-syntax-essential.md.md",
     "01-notes/api.md.md",
     "05-weekly-summary/20260720-20260727/20260721.md.md",
