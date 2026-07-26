@@ -134,3 +134,6 @@ if __name__ == '__main__':
 9. Create one function for duplicated steps for convenient purpose
 10. Always consider input validation for GUI app
 11. Variable names must be descriptive and easy to understand, if it is not, use comments to briefly explain
+
+
+#project #filehandling #json #html #css #app

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-weekly-summary/20260720-20260727/20260725.md",
+                "file": "05-weekly-summary/20260720-20260727/20260726.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260725"
+              "title": "20260726"
             }
           },
           {
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "da3007111141615f",
@@ -199,15 +200,17 @@
   },
   "active": "cbad5f2fdd633a7c",
   "lastOpenFiles": [
-    "05-weekly-summary/20260720-20260727/20260722.md",
+    "05-weekly-summary/daily-log-template.md",
+    "05-weekly-summary/20260720-20260727/20260726.md",
+    "02-practice-projects/collections.md",
+    "02-practice-projects/practice-projects-template.md",
+    "02-practice-projects/file-handling.md",
+    "02-practice-projects/functions-inheritance.md",
     "05-weekly-summary/20260720-20260727/20260725.md",
+    "05-weekly-summary/20260720-20260727/20260722.md",
     "05-weekly-summary/20260720-20260727/20260721.md",
     "06-coding-tips/github-repository-update.md",
-    "02-practice-projects/file-handling.md",
-    "02-practice-projects/practice-projects-template.md",
-    "02-practice-projects/functions-inheritance.md",
     "04-error-log/errors.md",
-    "05-weekly-summary/daily-log-template.md",
     "06-coding-tips/zero-to-aimastery/21.1-python.md",
     "06-coding-tips/zero-to-aimastery/scratch.md",
     "06-coding-tips/zero-to-aimastery/21.0-phase1.md",
@@ -226,8 +229,6 @@
     "01-notes/api.md",
     "06-coding-tips/github-workflow-update.md",
     "06-coding-tips/structuring-coding-journey.md",
-    "01-notes/pandas.md",
-    "[Ultimate.md",
     "05-weekly-summary/20260720-20260727",
     "03-cheatsheets/Pasted image 20260427211020.png",
     "01-notes/images",
