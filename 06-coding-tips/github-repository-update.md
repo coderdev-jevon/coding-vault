@@ -50,3 +50,16 @@ git config --global init.defaultBranch main
 ```
 
 ## * Step by Step for Updating
+```
+# 1
+git pull #to check changes
+
+# 2
+git add .
+
+# 3
+git commit -m "message"
+
+#4
+git push
+```

@@ -96,7 +96,6 @@ Via: 1.1 heroku-router
 ```
 
 #### ** Request Methods
-- GET: retrieve data using given URL
 - POST: create and send new data to server
 - PUT: modify or upload data
 - DELETE: removes data
