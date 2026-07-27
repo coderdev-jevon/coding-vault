@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-weekly-summary/20260720-20260727/20260726.md",
+                "file": "05-weekly-summary/20260727-20260803/20260727.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260726"
+              "title": "20260727"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-coding-tips/zero-to-aimastery/11-phase1.md",
+                "file": "02-practice-projects/iterators-generators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-phase1"
+              "title": "iterators-generators"
             }
           }
         ]
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "da3007111141615f",
@@ -200,12 +199,19 @@
   },
   "active": "cbad5f2fdd633a7c",
   "lastOpenFiles": [
+    "02-practice-projects/python-standard-library.md",
+    "05-weekly-summary/20260727-20260803/20260727.md",
+    "02-practice-projects/iterators-generators.md",
+    "02-practice-projects/collections.md",
+    "02-practice-projects/file-handling.md",
+    "02-practice-projects/practice-projects-template.md",
+    "02-practice-projects/functions-inheritance.md",
+    "02-practice-projects/modules.md",
+    "02-practice-projects/Untitled",
+    "06-coding-tips/zero-to-aimastery/11-phase1.md",
     "05-weekly-summary/daily-log-template.md",
     "05-weekly-summary/20260720-20260727/20260726.md",
-    "02-practice-projects/collections.md",
-    "02-practice-projects/practice-projects-template.md",
-    "02-practice-projects/file-handling.md",
-    "02-practice-projects/functions-inheritance.md",
+    "05-weekly-summary/20260727-20260803",
     "05-weekly-summary/20260720-20260727/20260725.md",
     "05-weekly-summary/20260720-20260727/20260722.md",
     "05-weekly-summary/20260720-20260727/20260721.md",
@@ -214,7 +220,6 @@
     "06-coding-tips/zero-to-aimastery/21.1-python.md",
     "06-coding-tips/zero-to-aimastery/scratch.md",
     "06-coding-tips/zero-to-aimastery/21.0-phase1.md",
-    "06-coding-tips/zero-to-aimastery/11-phase1.md",
     "06-coding-tips/zero-to-aimastery/20-zero-to-ai-system-engineeer-roadmap.md",
     "06-coding-tips/zero-to-aimastery/10-zero-to-aimastery-roadmap.md",
     "06-coding-tips/zero-to-aimastery",
@@ -225,10 +230,6 @@
     "06-coding-tips/markdown-syntax-essential.md",
     "01-notes/images/decision-tree.webp",
     "01-notes/building-api.md",
-    "CS50x.md",
-    "01-notes/api.md",
-    "06-coding-tips/github-workflow-update.md",
-    "06-coding-tips/structuring-coding-journey.md",
     "05-weekly-summary/20260720-20260727",
     "03-cheatsheets/Pasted image 20260427211020.png",
     "01-notes/images",
@@ -240,8 +241,6 @@
     "01-notes/complete-numpy-tutorial/practice.ipynb",
     "01-notes/complete-numpy-tutorial/numpy-tutorial",
     "01-notes/complete-numpy-tutorial",
-    "Untitled",
-    "06-coding-tips",
     "Pasted image 20260514203756.png",
     "Pasted image 20260427211009.png",
     "Pasted image 20260427211020.png",
