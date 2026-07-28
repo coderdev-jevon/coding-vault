@@ -1,9 +1,5 @@
 # Python Standard Library
 Date: 2026-07-27
-
-
-
-
 ## Lessons
 1. How to use `timedelta` in like `timedelta(days=7)`
 2. Coder often you this combo
@@ -17,7 +13,16 @@ Date: 2026-07-27
 		
 	#why? This is to make the indention to not be too far, keep the indent minimum
 	```
-1. `IOError` means Input/Output Error, it merged into `OSError`, so it means failed to read/write/access a file or path.
+3. `IOError` means Input/Output Error, it merged into `OSError`, so it means failed to read/write/access a file or path.
+4. To use `itertools.groupby` in the most optimal way, first, sort it out first
+5. Use `list(dict.fromkeys(list))` to get unique values, which order kept
+6. Why implement `if file.is_file()` because there's a possibility `.log` named is a folder
+7. Always consider variable names, don't make it the same as function name
+8. `range(0,13)` this range start from 0 to 12
+9. You can prevent `KeyError` by dictionary using this syntax
+	```python
+	value = dict_name.get(key_name, default)
+	```
 
 ## * `datetime`
 ```python
@@ -51,7 +56,6 @@ defaultdict #avoid key error when accumulating sums
 deque #fast append/pop from both ends (better than list for queues)
 namedtuple #(lightweight data holder, precursor to classes)
 ```
-
 #### ** `deque`
 It is works as a list, and it is optimized to add/remove from both ends
 ```python
@@ -63,7 +67,7 @@ dq.appendleft("oldest")
 dq.pop()
 dq.popleft()
 
-dq = deque(maxlen=5) #limit data to 5 items
+dq = deque(list, maxlen=5) #limit data to 5 items, no need manual append
 ```
 
 #### ** `namedtuple`
@@ -83,6 +87,13 @@ record = ExpenseRecord(
 print(record.date) 
 print(record.category)
 ```
+#### ** `Counter`
+```python
+counter = Counter(record.category for record in records) #saves memory, because it does not need the data to be stored in full memory list
+# or
+counter = Counter((record.category for record in records))
+```
+
 ## * `os`
 ```python
 os.environ #read environment variables (your Flask PORT)
@@ -121,7 +132,7 @@ itertools.islice #take first N items from generator
 	itertools.islice(logs, 3)
 
 #3
-itertools.groupby #group data (group expenses by month!)
+itertools.groupby #group data (group expenses by month!), first sort it out
 
 	import itertools
 	
