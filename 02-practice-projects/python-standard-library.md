@@ -23,6 +23,8 @@ Date: 2026-07-27
 	```python
 	value = dict_name.get(key_name, default)
 	```
+10. If a function returns `None`, probably you forgot to return in a certain condition
+11. `If line:` checks if the line is empty or not
 
 ## * `datetime`
 ```python
