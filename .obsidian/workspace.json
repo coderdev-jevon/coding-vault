@@ -13,12 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-practice-projects/python-projects/weather-cli.md",
+                "file": "02-practice-projects/python-projects/expense-tracker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "weather-cli"
+              "title": "expense-tracker"
+            }
+          },
+          {
+            "id": "53f63de0d249fb25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-weekly-summary/20260803-20260810/20260805.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260805"
+            }
+          },
+          {
+            "id": "1b9e8900cd51aa3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-practice-projects/python-projects/flashcard-app.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "flashcard-app"
             }
           }
         ]
@@ -188,14 +216,21 @@
   },
   "active": "ba918a7e43d4b56d",
   "lastOpenFiles": [
-    "02-practice-projects/python-projects/password-manager.md",
-    "02-practice-projects/python-projects/notes-project.md",
-    "02-practice-projects/practice-projects-template.md",
-    "02-practice-projects/python-projects/weather-cli.md",
-    "02-practice-projects/file-handling.md",
+    "02-practice-projects/python-projects/flashcard-app.md",
+    "02-practice-projects/python-projects/expense-tracker.md",
+    "05-weekly-summary/20260803-20260810/20260805.md",
     "02-practice-projects/python-standard-library.md",
-    "05-weekly-summary/20260727-20260803/20260729.md",
     "05-weekly-summary/daily-log-template.md",
+    "05-weekly-summary/20260803-20260810",
+    "05-weekly-summary/20260727-20260803/Untitled",
+    "02-practice-projects/python-projects/weather-cli.md",
+    "02-practice-projects/python-projects/notes-project.md",
+    "01-notes/pandas.md",
+    "02-practice-projects/practice-projects-template.md",
+    "Pasted image 20260801103907.png",
+    "02-practice-projects/python-projects/password-manager.md",
+    "02-practice-projects/file-handling.md",
+    "05-weekly-summary/20260727-20260803/20260729.md",
     "03-cheatsheets/P.md",
     "02-practice-projects/iterators-generators.md",
     "02-practice-projects/python-projects",
@@ -212,10 +247,6 @@
     "05-weekly-summary/20260720-20260727/20260721.md",
     "06-coding-tips/github-repository-update.md",
     "04-error-log/errors.md",
-    "06-coding-tips/zero-to-aimastery/21.1-python.md",
-    "06-coding-tips/zero-to-aimastery/scratch.md",
-    "06-coding-tips/zero-to-aimastery/21.0-phase1.md",
-    "06-coding-tips/zero-to-aimastery/20-zero-to-ai-system-engineeer-roadmap.md",
     "06-coding-tips/zero-to-aimastery",
     "01-notes/images/prompt-spaces-markdownformat.png",
     "01-notes/images/decision-tree.webp",
@@ -228,11 +259,8 @@
     "01-notes/complete-numpy-tutorial/numpy-tutorial/Numpy Tutorial/numpy_tutorial.ipynb",
     "01-notes/complete-numpy-tutorial/numpy-tutorial/Numpy Tutorial",
     "01-notes/complete-numpy-tutorial/practice.ipynb",
-    "01-notes/complete-numpy-tutorial/numpy-tutorial",
-    "01-notes/complete-numpy-tutorial",
     "Pasted image 20260514203756.png",
     "Pasted image 20260427211009.png",
-    "Pasted image 20260427211020.png",
-    "Pasted image 20260427211013.png"
+    "Pasted image 20260427211020.png"
   ]
 }

@@ -19,6 +19,8 @@ response.json()
 response.raise_for_status() #really important to send errors from the server
 ```
 
+#### ** Step by step
+	Find API from website -> get base url and key -> run to the code
 Example:
 ```python
 import requests
