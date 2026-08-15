@@ -8,45 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ba918a7e43d4b56d",
+            "id": "d9ce1fed8b16ab19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-practice-projects/python-projects/expense-tracker.md",
+                "file": "01-notes/linux/linux-chap6.0-common-applications.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "expense-tracker"
+              "title": "linux-chap6.0-common-applications"
             }
           },
           {
-            "id": "53f63de0d249fb25",
+            "id": "a063076512c84d7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-weekly-summary/20260803-20260810/20260805.md",
+                "file": "01-notes/shortcuts/desktop-shortcuts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260805"
-            }
-          },
-          {
-            "id": "1b9e8900cd51aa3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-practice-projects/python-projects/flashcard-app.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "flashcard-app"
+              "title": "desktop-shortcuts"
             }
           }
         ]
@@ -125,17 +111,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/set_repository_to_track_progress.md.md",
+                "file": "01-notes/linux/linux-chap3.2-ubuntu-installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for set_repository_to_track_progress.md"
+              "title": "Backlinks"
             }
           },
           {
@@ -200,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -214,53 +200,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "ba918a7e43d4b56d",
+  "active": "d9ce1fed8b16ab19",
   "lastOpenFiles": [
-    "02-practice-projects/python-projects/flashcard-app.md",
-    "02-practice-projects/python-projects/expense-tracker.md",
-    "05-weekly-summary/20260803-20260810/20260805.md",
-    "02-practice-projects/python-standard-library.md",
-    "05-weekly-summary/daily-log-template.md",
+    "01-notes/linux/linux-chap5.0-system-configuration-from-graphical-interface.md",
+    "01-notes/linux/linux-chap6.0-common-applications.md",
+    "01-notes/linux/linux-chap5.1-system-configuration-from-graphical-interface.md",
+    "01-notes/shortcuts/desktop-shortcuts.md",
+    "01-notes/shortcuts",
+    "01-notes/linux/Untitled",
+    "01-notes/linux/linux-chap4.1-graphical-interface.md",
+    "01-notes/linux/linux-chap4.0-graphical-interface.md",
+    "01-notes/linux/linux-chap3.4-filesystem.md",
+    "01-notes/linux/linux-chap3.3-boot-process.md",
+    "01-notes/linux/linux-chap3.2-ubuntu-installation.md",
+    "01-notes/linux/linux-chap3.1-installation.md",
+    "01-notes/linux/linux-chap2-history.md",
+    "Pasted image 20260813112941.png",
+    "01-notes/linux/linux-chap1-intro.md",
+    "01-notes/images/linux-usr-subdirectories.png",
+    "01-notes/images/linux-key-fhs-2.png",
+    "01-notes/images/linux-key-fhs-1.png",
+    "01-notes/images/linux-windows-storage-concepts.png",
+    "01-notes/images/linux-bios-uefi-boot.png",
+    "01-notes/images/linux-boot-process.png",
+    "01-notes/linux/linux-chap0.md",
+    "01-notes/images/linux-automated-installation.png",
+    "01-notes/images/linux-roadmap.png",
+    "Pasted image 20260809102812.png",
+    "BIOS.md",
+    "06-coding-tips/zero-to-aimastery/stage1-1-phase0.md",
+    "01-notes/ai/ai-cs50x-2026.md",
+    "06-coding-tips/zero-to-aimastery/stage1-0-roadmap.md",
+    "06-coding-tips/zero-to-aimastery/stage0-0-zero-to-ai-system-engineeer-roadmap.md",
+    "06-coding-tips/zero-to-aimastery/stage0-1-python.md",
+    "01-notes/python/building-api.md",
+    "01-notes/linux",
+    "01-notes/Untitled.md",
+    "01-notes/ai",
+    "01-notes/prompt",
+    "01-notes/python/pandas.md",
+    "01-notes/python",
+    "01-notes/python/numpy.md",
+    "01-notes/python/api.md",
+    "06-coding-tips/zero-to-aimastery/stage1.md",
+    "06-coding-tips/zero-to-aimastery/scratch.md",
     "05-weekly-summary/20260803-20260810",
     "05-weekly-summary/20260727-20260803/Untitled",
-    "02-practice-projects/python-projects/weather-cli.md",
-    "02-practice-projects/python-projects/notes-project.md",
-    "01-notes/pandas.md",
-    "02-practice-projects/practice-projects-template.md",
-    "Pasted image 20260801103907.png",
-    "02-practice-projects/python-projects/password-manager.md",
-    "02-practice-projects/file-handling.md",
-    "05-weekly-summary/20260727-20260803/20260729.md",
-    "03-cheatsheets/P.md",
-    "02-practice-projects/iterators-generators.md",
     "02-practice-projects/python-projects",
-    "02-practice-projects/collections.md",
-    "02-practice-projects/functions-inheritance.md",
-    "05-weekly-summary/20260727-20260803/20260728.md",
-    "05-weekly-summary/20260727-20260803/20260727.md",
-    "02-practice-projects/modules.md",
-    "06-coding-tips/zero-to-aimastery/11-phase1.md",
-    "05-weekly-summary/20260720-20260727/20260726.md",
-    "05-weekly-summary/20260727-20260803",
-    "05-weekly-summary/20260720-20260727/20260725.md",
-    "05-weekly-summary/20260720-20260727/20260722.md",
-    "05-weekly-summary/20260720-20260727/20260721.md",
-    "06-coding-tips/github-repository-update.md",
-    "04-error-log/errors.md",
-    "06-coding-tips/zero-to-aimastery",
-    "01-notes/images/prompt-spaces-markdownformat.png",
-    "01-notes/images/decision-tree.webp",
-    "05-weekly-summary/20260720-20260727",
-    "03-cheatsheets/Pasted image 20260427211020.png",
-    "01-notes/images",
-    "03-cheatsheets/Pasted image 20260514203756.png",
-    "03-cheatsheets/Pasted image 20260427211013.png",
-    "03-cheatsheets/Pasted image 20260427211009.png",
-    "01-notes/complete-numpy-tutorial/numpy-tutorial/Numpy Tutorial/numpy_tutorial.ipynb",
-    "01-notes/complete-numpy-tutorial/numpy-tutorial/Numpy Tutorial",
-    "01-notes/complete-numpy-tutorial/practice.ipynb",
-    "Pasted image 20260514203756.png",
-    "Pasted image 20260427211009.png",
-    "Pasted image 20260427211020.png"
+    "05-weekly-summary/20260727-20260803"
   ]
 }
