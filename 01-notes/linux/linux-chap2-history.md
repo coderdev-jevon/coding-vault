@@ -1,3 +1,4 @@
+
 # Chapter 2: Linux Philosophy and Concepts
 Date: 2026-08-06
 

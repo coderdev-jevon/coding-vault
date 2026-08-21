@@ -158,20 +158,4 @@ If a company needs Linux installed on 100 office computers, manual setup for use
 4. Updates: option to apply available updates or separate update step after the first boot
 5. Reboot and first boot, some may do process accepting license agreement or completing account setup.
 
-## * Linux Boot Process
-Procedure to initializing the system, process from first switched on to fully operational
-
-#### * The first step: BIOS
-![[BIOS.png|142]]
-
-![[BIOS2.png|154]]
-Basic Input/Output System initializes screen and keyboard and tests the main memory, also called as POST, Power On Self Test. BIOS stores on RAM chip on the mother board. The rest of the process is controlled by OS.
-
-Boot Loader is stored inside MBR system traditionally or EFI partition with UEFI (Unified Extensible Firmware Interface) firmware.
-
-Boot Loader, example, GRUB (Grand Unified Boot Loader), ISOLINUX, for booting from removable media, Das U-Boot, for booting on embedded devices/appliances.
-
-
-
-
 #linuxinstallation #linuxboot

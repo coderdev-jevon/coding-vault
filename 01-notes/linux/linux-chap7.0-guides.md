@@ -1,3 +1,11 @@
+
+
+#### Objectives
+1. Use the command line to perform operations in Linux
+2. Search for files
+3. Create and manage files
+4. Install and update software.
+
 ## Introduction to the Command Line
 
 - 🟢 Using a Text Terminal on the Graphical Desktop
