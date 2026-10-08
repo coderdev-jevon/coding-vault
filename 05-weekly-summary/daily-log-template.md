@@ -1,14 +1,17 @@
-# Daily Learning Log
-Date: 
+## 2026-10-09
 
-## Learned Today
+==**Goal:**== 
+==**Did:**== 
+1. .
 
-## Bug I fixed
+==**Learned:**== 
+1. .
 
-## Weak point (need to review)
+==**Confused about:**==
+1. .
 
-## Tomorrow task
-
+==**Tomorrow:**== 
+1. .
 
 #daily-log #template
 

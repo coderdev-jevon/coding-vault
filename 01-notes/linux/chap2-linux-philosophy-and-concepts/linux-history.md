@@ -6,10 +6,12 @@ Goal for this chapter:
 1. Define common Linux terms
 2. Discuss components of Linux distribution
 
-## ** Linux History
+## ** Linux History 
+==UNIX came first at 1970s==
+
 Linux is open source computer OS, initially developed for Intel x86-based personal computers.
 
-Linus Torvalds developed Linux kernel. Then Linux kernel was re-licensed under General Public License by Free Software Foundation (FSF), enabling it to build a worldwide community of developers, at last, developers created complete systems called Linux Distributions.
+==Linus Torvalds developed Linux kernel.== Then Linux kernel was re-licensed under General Public License by Free Software Foundation (FSF), enabling it to build a worldwide community of developers, at last, developers created complete systems called Linux Distributions.
 
 #### ** History of Linux
 
@@ -17,6 +19,7 @@ Linus Torvalds developed Linux kernel. Then Linux kernel was re-licensed under G
 
 #### ** Linux Use Cases
 ![[linux-usecase.png|300]]
+
 
 
 ## * Linux Philosophy

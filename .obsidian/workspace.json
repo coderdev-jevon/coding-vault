@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-notes/linux/chap14-network-operations/14-2-networking-configuration-and-tools.md",
+                "file": "06-coding-tips/github-repository-update.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14-2-networking-configuration-and-tools"
+              "title": "github-repository-update"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.8333435058594,
-    "collapsed": true
+    "width": 360.8333435058594
   },
   "right": {
     "id": "da3007111141615f",
@@ -200,12 +200,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "f9da4bce01cea2cd",
+  "active": "7b7ac05c32bd1cee",
   "lastOpenFiles": [
-    "01-notes/linux/chap14-network-operations/14-2-networking-configuration-and-tools.md",
-    "05-weekly-summary/20261005-202061012/20261007.md",
-    "01-notes/linux/chap14-network-operations/14-1-network-addresses-and-dns.md",
+    "05-weekly-summary/20261005-202061012/20261008.md",
     "05-weekly-summary/daily-log-template.md",
+    "05-weekly-summary/20261005-202061012/20261007.md",
+    "01-notes/linux/chap14-network-operations/14-2-networking-configuration-and-tools.md",
+    "01-notes/linux/images/ip-addr-output.png",
+    "01-notes/linux/chap2-linux-philosophy-and-concepts/linux-history.md",
+    "06-coding-tips/github-workflow-update.md",
+    "01-notes/linux/chap14-network-operations/14-1-network-addresses-and-dns.md",
     "05-weekly-summary/20261005-202061012",
     "01-notes/linux/chap14-network-operations/14-0-guidelines.md",
     "01-notes/linux/chap13-manipulating-text/13-5-miscellaneous-text-utilities.md",
@@ -236,12 +240,8 @@
     "01-notes/linux/chap13-manipulating-text",
     "01-notes/linux/chap12-user-environment/12-1-accounts-users-groups.md",
     "01-notes/linux/chap12-user-environment/12-4-file-ownership.md",
-    "01-notes/linux/images/linux-keyboard-shortcuts.png",
     "01-notes/linux/chap11-text-editors/11.3-linux-vi.md",
     "01-notes/linux/chap12-user-environment",
-    "01-notes/c-language/2-C语言基础知识.md",
-    "01-notes/c-language/3-程序控制结构.md",
-    "01-notes/c-language/1-程序设计基础.md",
     "01-notes/auto-cad/images",
     "01-notes/auto-cad",
     "01-notes/c-language/images",
