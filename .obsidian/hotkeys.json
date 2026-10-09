@@ -7,5 +7,14 @@
       ],
       "key": "H"
     }
+  ],
+  "editor:toggle-highlight-blue": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
   ]
 }

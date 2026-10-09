@@ -1,7 +1,21 @@
 # Chap 14.2: Networking Configuration and Tools
 Date: 2026-10-07
 
-## * Network Configuration Files
+---
+## ==🔵* Terminology==
+---
+1. ==**Host name**== is the name for IP address to make it easier to remember.
+2. ==**Remote host**== is the opposite of local host, the computer you reach over the network.
+3. **==Network host==** is any device connected to a network that has an IP address and can send or receive data on it.
+4. ==**Website**== is the content and software that host serves.
+5. ==**DNS**== is Domain Name System, is the Internet's phone book, it translates human friendly name into IP address.
+6. ==**Mail server**== is the computer that receives email address to a certain domain.
+7. ==**Name server**== is a computer that stores DNS records and answers DNS questions.
+
+
+---
+## ==🔵* Network Configuration Files==
+---
 They are ==text files where Linux stores its network settings==: IP address, gateway, DNS servers, hostname, and so on.
 
 For Debian Family, they are stored inside==`/etc/network`==
@@ -14,7 +28,9 @@ It is a text user interface
 #### ==** `nmcli` (network manager command line interface)==
 Does the same thing through typed commands
 
-## * Network Interfaces
+---
+## ==🔵* Network Interfaces==
+---
 Interface means ==connection point.== It ==can be activated or deactivated.==
 
 ==IP address belongs to network interface.==
@@ -47,7 +63,9 @@ add
 del
 ```
 
-## ==* How to read `ip addr` output==
+---
+## ==🔵* How to read `ip addr` output==
+---
 ```
 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
     link/ether 08:00:27:ab:cd:ef brd ff:ff:ff:ff:ff:ff
@@ -112,14 +130,38 @@ A lease is a temporary loan, DHCP server lets your device use an IP address for 
 ip -br addr # br stands for brief
 ```
 
-
-## ==* `ip link`==
+---
+## ==🔵* `ip link`==
+---
 Same like `ip addr` but without IP addresses.
 
-## ==* `ip route`==
+---
+## ==🔵* `ip route`==
+---
 Shows the routing table, "where to send each packet", shows default route, your local network.
 
-## ==* `ip neig`==
+#### ==** `ip route` Commands==
+```bash
+ip route
+ip route add
+ip route del
+```
+
+#### ==** How to read `ip route output`==
+```
+default via 192.168.1.1 dev eth0 proto dhcp metric 100
+192.168.1.0/24 dev eth0 proto kernel scope link src 192.168.1.25 metric 100
+```
+The ==rule of each line== is for destinations in this range, send packets this way.
+
+`default via 192.168.1.1 dev eth0 proto dhcp metric 100`
+Destination + Via (what router) + Which Interface the packet leaves from + Source (own IP address)
+
+==`default`== means the last resort if destination is not found.
+ 
+---
+## ==🔵* `ip neig`==
+---
 It stands for neighbor, it shows list of ==IP addresses on your local network map to which MAC addresses.==
 ```
 192.168.1.1 dev eth0 lladdr 52:54:00:12:35:02 REACHABLE
@@ -128,19 +170,75 @@ It stands for neighbor, it shows list of ==IP addresses on your local network ma
 ```
 192.168.1.1 is the neighbor's IP address, `dev etho` is the interface it was learned on, `lladdr 52:54:..` means neighbor's MAC address, REACHABLE is the entry's state.
 
-## * `ip netns`
-It manage network namespaces, it's a tool for creating, listing, and entering private apartments 
+---
+## ==🔵* `ip netns`==
+---
+It manage network namespaces. With namespaces, you can have name duplicates on the same program.
 
+---
+## ==🔵* `ping`==
+---
+To check ==whether a machine is attached to a network== or not, how long trip it takes.
+#### ==** Commands==
+```bash
+ping <hostname>
+ping <ip_address>
 
-|Object|What it manages|Example|
-|---|---|---|
-|`address` (`addr`, `a`)|IP addresses on interfaces|`ip addr`|
-|`link` (`l`)|Interface state, MAC address, MTU|`ip link`|
-|`route` (`r`)|Routing table, default gateway|`ip route`|
-|`neighbor` (`neigh`)|ARP table: which IP maps to which MAC|`ip neigh`|
-|`netns`|Network namespaces, the isolation behind containers|`ip netns list`|
-## * Additional
+ping -c N <hostname> # to limit how many packets to send
+CTRL-C # to stop sending packets
+```
 
+---
+## ==🔵* `traceroute`==
+---
+It prints the route to reach the network host.
+
+#### ==** URL Simple Breakdown==
+```
+https://www.google.com/search
+  |         |             |
+protocol   host          path
+```
+
+#### ==** Difference between `ip route` and `traceroute`==
+`ip route` shows your computer's rule to send packets, while `traceroute` discovers actual path to send packet to network host.
+
+---
+## ==🔵* More Networking Tools==
+---
+```bash
+# HIGH PRIORITY
+dig
+mtr
+ethtool
+
+# MEDIUM PRIORITY
+netstat
+tcpdump
+```
+
+#### ==** `host` command==
+It is the simplest tool for asking DNS a question from terminal.
+
+It includes IPv4 address, IPv6 address, and mail server
+#### ==** `dig` command==
+Ask DNS a question and shows you full, detailed answer.
+
+```bash
+dig google.com A # IPv4
+	dig +short google.com A # for cleaner output
+dig google.com AAAA # IPv6
+dig google.com MX # MX record or mail server
+dig google.com NS # name server for the domain
+dig google.com TXT # for text records (email security, domain verification)
+
+dig @8.8.8.8 google.com # to ask for a specific DNS server
+```
+
+Name server can be a ==resolver or authoritative name server==, resolver is the DNS server your computer sends question to, authoritative name server is the one who owns the answer (official records.)
+
+## ==🔵* Additional==
+---
 #### ==** Different Area Different IP Address==
 It is done to group nodes up, to make router task easier.
 
@@ -175,3 +273,5 @@ Your phone talks by radio to nearby cell tower, and the carrier connects tower t
 2. Obstacle such as walls that block radio waves
 3. Congestion (many people using it at once)
 4. Weak antenna (your phone)
+
+---
