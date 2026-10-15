@@ -28,3 +28,10 @@
 - 🟡 **More Networking Tools**: tools like `netstat`, `nmap`, `tcpdump`, `wget`/`curl`, and `dig` usually show up here. Know what each is for. `ss` has replaced `netstat`, and `tcpdump` is the one worth revisiting later.
 - 🟡 **Using More Networking Tools**: follow along and try a few of the commands, but don’t spend long on any single tool.
 - 🟢 **Try-It-Yourself: Using Network Tools**: do the hands-on exercise.
+
+
+# Browsers, `wget`, `curl`
+- 🔴 **Graphical and Non-Graphical Browsers**: skim only. Just know that text browsers like `lynx` exist and that servers usually have no GUI. Don’t spend time on it.
+- 🟡 **wget**: know what it does (downloads files from the web, can resume and fetch recursively). You’ll use it to grab files on servers, but `curl` covers most of the same needs.
+- 🟢 **curl**: learn this one well. It sends HTTP requests from the terminal (GET, POST, headers, JSON), so you’ll use it to test APIs and model-serving endpoints, which is directly relevant to AI systems work.
+- 🟢 **Try-It-Yourself: Using wget and curl**: do it, and type the commands yourself. Try extras too, like `curl -I` to see response headers, and `curl -v` to watch the request and response in detail, so you see what’s happening under the hood.

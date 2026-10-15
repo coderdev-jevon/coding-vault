@@ -42,7 +42,7 @@ Interface means ==connection point.== It ==can be activated or deactivated.==
 	Connect a computer to a network
 2. Software
 
-#### ** Information on Network Interface
+#### ==** Information on Network Interface==
 ```bash
 ip # newer
 ifconfig # /sbin/ifconfig, install by net-tools
@@ -138,7 +138,7 @@ Same like `ip addr` but without IP addresses.
 ---
 ## ==🔵* `ip route`==
 ---
-Shows the routing table, "where to send each packet", shows default route, your local network.
+Shows the routing table, "where to send each packet", shows default route, your local network. If there's no via, then it is locally connected.
 
 #### ==** `ip route` Commands==
 ```bash
@@ -213,8 +213,8 @@ mtr
 ethtool
 
 # MEDIUM PRIORITY
-netstat
-tcpdump
+netstat # display all active connections and routing tables for monitoring performance and troubleshooting
+tcpdump # dumps network traffic for analysis
 ```
 
 #### ==** `host` command==
@@ -237,8 +237,66 @@ dig @8.8.8.8 google.com # to ask for a specific DNS server
 
 Name server can be a ==resolver or authoritative name server==, resolver is the DNS server your computer sends question to, authoritative name server is the one who owns the answer (official records.)
 
+#### ==** `mtr` command==
+Stands for `MyTraceRoute`
+It combines `ping` and `traceroute`, shows every router between you and a destination
+
+```bash
+mtr -rwn -c 10 google.com
+# r means report and exists
+# -w means wide output
+# -n show IP addresses only
+# -c send 10 probes per hop (each time packet transfer to next router, probe means on test packet)
+```
+Three columns that matter: `Host (router)`, `Loss% (percent of probes with no reply)`, `Avg (Average round trip (ms))`
+
+#### ==** `ethtool` command==
+```bash
+ip -br link # shows interface name
+ethtool enp0s3 # link speed ad status
+ethtool -i enp0s3 # driver information
+```
+
+Speed - speed link
+Duplex - Full (can send and receive at the same time)
+Link detected - yes (connection is active)
+
+#### ==** `ss -tuln`==
+`ss` stands for socket statistics, it lists network connections and ports
+
+```bash
+ss -tuln
+-t # TCP sockets
+-u # UDP sockets
+-l # Listening only, means waiting, its awake
+-n # Numberic (show port number)
+```
+
+State - LISTEN (waiting for connections), UNCONN (no connection state)
+Local Address - where it's listening
+0.0.0.0:port - means any IPv4 interface can connect
+`[::]:port` - means any IPv6 interface can connect
+
+#### ==** `nmap`==
+It stands for network mapper it probes a machine or a network to find which hosts are up, which ports are open to them.
+
+```bash
+nmap [TARGET] # localhost for example
+```
+
+---
 ## ==🔵* Additional==
 ---
+#### ==** Reminder to IPv4==
+It is a version of Internet Protocol on address (32 bits).
+#### ==** Definition of Port==
+It is a number from 0 to 65535
+IP address finds the machine, and the port finds the program on it.
+
+#### ==** TCP vs UDP==
+Both are transport protocols (how data travels on two machines)
+TCP sets up connection first then send (slower, with guarantee), while UDP just sends (faster, with no guarantee).
+
 #### ==** Different Area Different IP Address==
 It is done to group nodes up, to make router task easier.
 
