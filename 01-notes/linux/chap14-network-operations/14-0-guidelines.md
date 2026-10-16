@@ -35,3 +35,16 @@
 - 🟡 **wget**: know what it does (downloads files from the web, can resume and fetch recursively). You’ll use it to grab files on servers, but `curl` covers most of the same needs.
 - 🟢 **curl**: learn this one well. It sends HTTP requests from the terminal (GET, POST, headers, JSON), so you’ll use it to test APIs and model-serving endpoints, which is directly relevant to AI systems work.
 - 🟢 **Try-It-Yourself: Using wget and curl**: do it, and type the commands yourself. Try extras too, like `curl -I` to see response headers, and `curl -v` to watch the request and response in detail, so you see what’s happening under the hood.
+Chap 14: Transferring Files (priority for AI systems goal)
+
+
+
+| Topic | Label | Why |
+|---|---|---|
+| FTP (File Transfer Protocol) | 🟡 | Know what it is and why it's rarely used now: sends passwords and data ==unencrypted==, replaced by SFTP and scp |
+| FTP Clients | 🔴 | Specific programs for a legacy protocol, skip |
+| SSH: Executing Commands Remotely | 🟢 | ==Most important topic here==, nearly all AI work happens on remote GPU machines over SSH |
+| Copying Files Securely with scp | 🟢 | Moves datasets, checkpoints, logs between your machine and a server: `scp file.txt user@host:/path/` |
+| Using SSH Between Two Virtual Machines | 🟢 | Hands-on practice for SSH and scp |
+| Lab 14.1: Network Troubleshooting | 🟢 | Uses `ping`, `ip route`, `dig`, `ss`, treat it as the chapter's final exam |
+| Lab 14.2: Non-Graphical Browsers | 🔴 | `lynx` is rarely used, `curl` and `wget` cover the need, run once if the course requires it |
