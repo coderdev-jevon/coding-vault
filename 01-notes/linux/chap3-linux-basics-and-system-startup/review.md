@@ -5,7 +5,7 @@
 1. Put these in order: kernel starts, POST, bootloader menu, login prompt, `systemd`, BIOS/UEFI, `initramfs`. 🎯
 2. How does BIOS/MBR find the bootloader, compared with UEFI? 🎯
 3. Why is `initramfs` needed? What problem does it solve? 🎯
-4. What is PID 1, and what is `/sbin/init` a symlink to? What did it replace, and why is the new one faster? 🎯
+4. What is PID 1, and what is `/sbin/init` a symlink to? 🎯 What did it replace, and why is the new one faster? 
 5. Write the `systemctl` commands to: start a service now, make it run at every boot, and check its status. What’s the difference between `start` and `enable`? 🎯
 6. Which of these need `sudo`: reading `/etc/hosts`, editing a file in `/etc/`, installing software, checking service status, changing your own password?
 7. How do you switch to a text terminal (TTY) and back to the graphical one? 🎯
