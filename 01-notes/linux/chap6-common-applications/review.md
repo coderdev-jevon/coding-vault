@@ -7,7 +7,7 @@
 3. Name a compiler for C/C++ and a debugger for C/C++. What does a breakpoint let you do? 🎯
 4. What does version control do? Name two systems, and which one is the standard today?
 5. A container is like a private room inside a house. What does that mean technically, and why are containers central to deploying AI models? 🎯
-6. What is an IDE, and how is it different from a plain text editor like vim?
+6. What is an IDE, and how is it different from a plain text editor like vim? 🎯
 7. Name two terminal editors and two editors that are mainly graphical.
 
 **Package checks (practical)**  

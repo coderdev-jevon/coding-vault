@@ -1,16 +1,16 @@
 ## 2026-10-09
 
-==**Goal:**== 
-==**Did:**== 
+**Goal:** 
+**Did:** 
 1. .
 
-==**Learned:**== 
+**Learned:** 
 1. .
 
-==**Confused about:**==
+**Confused about:**
 1. .
 
-==**Tomorrow:**== 
+**Tomorrow:** 
 1. .
 
 #daily-log #template

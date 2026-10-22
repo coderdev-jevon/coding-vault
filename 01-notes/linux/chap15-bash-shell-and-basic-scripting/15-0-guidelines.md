@@ -37,3 +37,17 @@
 🟢 Lab 15.3: Passing Arguments
 🟢 Lab 15.4: Environment Variables
 🟢 Lab 15.5: Working with Functions
+
+## Constructs
+
+🟢 The if Statement
+🟢 Using the if Statement
+🟢 The elif Statement
+🟢 Testing for Files
+🟡 Boolean Expressions
+🟢 Tests in Boolean Expressions
+🟢 Example of Testing of Strings
+🟢 Numerical Tests
+🟡 Example of Testing for Numbers
+🟢 Arithmetic Expressions
+🟢 Lab 15.6: Arithmetic and Functions

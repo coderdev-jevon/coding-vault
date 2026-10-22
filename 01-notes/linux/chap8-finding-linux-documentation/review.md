@@ -4,13 +4,13 @@
 
 1. Match each to its best use: `--help`, `man`, `info`, `help`. 🎯
 2. Why does `help cd` work but `cd --help` doesn’t? What kind of command is `cd`? 🎯
-3. You forgot a command’s name but know it’s about disk usage. What do you run? Then, once you know the name, what do you run to see its quick options?
-4. `man -f passwd` vs `man -k passwd`: what’s the difference? Name the equivalent command for each.
+3. You forgot a command’s name but know it’s about disk usage. What do you run? Then, once you know the name, what do you run to see its quick options? 🎯
+4. `man -f passwd` vs `man -k passwd`: what’s te difference? Name the equivalent command for each. 🎯
 
 **Man pages (most important)**  
-5. What do man chapters 1, 5, and 8 contain? Which two chapters will matter most when you start programming in C?  
-6. `man passwd` and `man 5 passwd` show different pages. Why? How do you browse every chapter’s page for a name?  
-7. Inside a man page, which keys do you use to scroll a page, search, and quit? (Think of the `less` lesson.)
+5. What do man chapters 1, 5, and 8 contain? Which two chapters will matter most when you start programming in C?  🎯
+6. `man passwd` and `man 5 passwd` show different pages. Why? How do you browse every chapter’s page for a name?  🎯
+7. Inside a man page, which keys do you use to scroll a page, search, and quit? (Think of the `less` lesson.) 🎯
 
 **Info and other sources**  
 8. What is a node in `info`? Which keys move to next, previous, and parent node, and how do you search?  
@@ -29,6 +29,22 @@
 3. `man -k disk` (or `apropos disk`, which means related to) searches manual descriptions for the keyword. Then `command --help` for a quick look at its options.
 4. `man -f passwd` (same as `whatis passwd`) finds pages whose name exactly matches and shows a one-line description. `man -k passwd` (same as `apropos passwd`) lists every page that mentions the keyword.
 5. 1 is user commands, 5 is configuration file formats, 8 is admin commands. For C, chapter 2 (system calls) and chapter 3 (library functions) are the ones you’ll open all the time.
+
+## Man page sections at a glance
+
+|#|Name|What it covers|Example|
+|---|---|---|---|
+|**1**|User commands|Programs anyone runs in the shell|`ls(1)`, `grep(1)`, `ssh(1)`|
+|**2**|System calls|Functions that ask the kernel to do something|`open(2)`, `fork(2)`, `write(2)`|
+|**3**|Library functions|C library functions (not direct kernel calls)|`printf(3)`, `malloc(3)`|
+|**4**|Special files|Device files in `/dev`|`null(4)`, `tty(4)`|
+|**5**|File formats and configs|Structure of config and data files|`passwd(5)`, `sshd_config(5)`|
+|**6**|Games|Games and demos (mostly empty today)||
+|**7**|Miscellaneous|Overviews, conventions, protocols|`signal(7)`, `regex(7)`, `man-pages(7)`|
+|**8**|System administration|Admin commands, usually need root|`mount(8)`, `useradd(8)`|
+|**9**|Kernel routines|Internals for kernel developers (not always installed)||
+
+
 6. The same name can exist in several chapters. `man passwd` shows chapter 1 (the command), while `man 5 passwd` shows chapter 5 (the `/etc/passwd` file format). `man -a passwd` browses all of them.
 7. Space scrolls down a page, `b` goes back, `/word` searches, and `q` quits (the same keys as `less`).
 8. A node is a section of the document, like a chapter in a book. `n` is next, `p` is previous, `u` is up to the parent, `/` searches, and `h` shows help.

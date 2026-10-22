@@ -2,7 +2,7 @@
 
 **Remote work and logs**
 
-1. What does SSH do, and how can you authenticate with it? Write the command to log in as `student` on `remote-server.com`. Why does this matter for AI work?
+1. What does SSH do, and how can you authenticate with it? Write the command to log in as `student` on `remote-server.com`. Why does this matter for AI work? 🎯
 2. What are file streams 0, 1, and 2? What do `>`, `2>`, `2>&1`, and `|` do? 🎯
 3. Write one command that runs `python train.py` and saves both normal output and errors into `run.log`. Then write the command to watch that file live. 🎯
 
@@ -29,6 +29,11 @@
 ### Answer key
 
 1. SSH runs a shell on another computer over the network. Authenticate with a password or an SSH key. `ssh student@remote-server.com`. Training machines and cloud GPUs are remote, so SSH is how you work on them.
+	```bash
+	sudo systemctl start ssh
+	sudo systemctl enable ssh
+	sudo jal@localhost
+	```
 2. 0 is `stdin` (input), 1 is `stdout` (normal output), 2 is `stderr` (errors). `>` sends output to a file, `2>` sends errors to a file, `2>&1` sends errors to the same place as output, and `|` feeds one command’s output into the next command’s input.
 3. `python train.py > run.log 2>&1`, then `tail -f run.log`.
 4. `df` shows free and used space per mounted partition: `df -h`. `du` shows how much space folders use: `du -sh *` or `du -h -d1 /home/jal`. Checkpoints and datasets fill disks fast, so you’ll use both.

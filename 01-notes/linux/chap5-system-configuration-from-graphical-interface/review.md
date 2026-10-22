@@ -6,8 +6,8 @@
 2. What is the difference between a low-level and a high-level package manager? Name the pair for the Debian family and for the RPM family. 🎯
 3. What file formats do the two families use? Why can’t you install a `.rpm` directly on Ubuntu? 🎯
 4. What does `sudo apt update` do? Does it install new versions of your software? (Think about what an “online repository” and “metadata” are.) 🎯
-5. What is a dependency, and which tool resolves them for you: `apt` or `dpkg`?
-6. Snap vs `apt`: give two differences.
+5. What is a dependency, and which tool resolves them for you: `apt` or `dpkg`? 🎯
+6. Snap vs `apt`: give two differences. 🎯
 7. Which high-level package manager would you use on Fedora/RHEL? On openSUSE?
 
 **Time and network**  
