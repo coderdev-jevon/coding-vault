@@ -8,16 +8,16 @@
 
 **Layout (what lives where)**  
 4. `/proc`, `/sys`, and `/dev`: what does each hold? What is a “virtual file”? Give two `/proc` files you could read to check a machine’s CPU and memory.  🎯
-5. What is `/var` for, why must it survive reboot, and which subfolder do you check first when a job fails?  
+5. What is `/var` for, why must it survive reboot, and which subfolder do you check first when a job fails?  🎯
 6. Where would each go: system config files, software you compiled yourself, commercial software installed manually?  
-7. Name the four kinds of files in `/boot`. What lives in `/lib/modules`, and how does that relate to GPU drivers?
+7. Name the four kinds of files in `/boot`. What lives in `/lib/modules`, and how does that relate to GPU drivers? 🎯
 
 **Backup and compression**  
-8. `cp` vs `rsync`: why is `rsync` better for backups? What do `-a`, `-v`, `--delete`, and `--dry-run` do? Why run `--dry-run` first?  
-9. Write the commands to create a gzip-compressed archive of `mydir` and to extract it. What do `c`, `x`, `z`, `v`, `f` mean? Why does `tar` come before compression?  
-10. Compare `gzip`, `bzip2`, and `xz`: speed, size, extension. Which command measures how long one takes?  
-11. What does `dd` copy that `rsync` doesn’t? What do `if`, `of`, `bs`, `count` mean? Why is `dd` dangerous, and what do you run first?  
-12. What are `diff -u` and `patch` for? What does `file` tell you that the extension doesn’t?
+8. `cp` vs `rsync`: why is `rsync` better for backups? What do `-a`, `-v`, `--delete`, and `--dry-run` do? Why run `--dry-run` first?  🎯
+9. Write the commands to create a gzip-compressed archive of `mydir` and to extract it. What do `c`, `x`, `z`, `v`, `f` mean? Why does `tar` come before compression?  🎯
+10. Compare `gzip`, `bzip2`, and `xz`: speed, size, extension. Which command measures how long one takes?  🎯
+11. What does `dd` copy that `rsync` doesn’t? What do `if`, `of`, `bs`, `count` mean? Why is `dd` dangerous, and what do you run first?  🎯
+12. What are `diff -u` and `patch` for? What does `file` tell you that the extension doesn’t? 🎯
 
 **Scenario**  
 13. A training run crashes with “No space left on device.” Give the commands, in order, to find which partition is full, then which folder is using the space, and one way to free it up safely.
@@ -35,8 +35,13 @@
 7. `vmlinuz` (compressed kernel), `initramfs`, `config`, and `System.map`. `/lib/modules` holds kernel modules, mostly device drivers, which can be loaded and unloaded without rebooting. 
 8. `rsync` copies only what changed and skips unchanged files, and it can copy to another machine directly. `-a` is archive mode (keeps properties), `-v` is verbose, `--delete` removes files in the destination that no longer exist in the source, and `--dry-run` shows what would happen without doing it. Run the dry run first because `--delete` can destroy data if you swap source and destination.
 9. `tar czvf mydir.tar.gz mydir` and `tar xvf mydir.tar.gz`. `c` is create, `x` is extract, `z` is gzip, `v` is verbose, `f` is the archive file name. `tar` bundles many files into one archive, and the compression tools then shrink that single file.
+
+	`tar` stands for tape archive
 10. `gzip` is fast and common (`.gz`), `bzip2` gives smaller files but is slower (`.bz2`), and `xz` is the smallest and slowest (`.xz`). `time command` measures the duration.
 11. `dd` copies every byte of the raw device, including empty space, the boot area, and deleted data still in blocks, while `rsync` copies files only. `if` is input, `of` is output, `bs` is block size, `count` is how many blocks. Swapping `if` and `of` can overwrite a whole disk, so run `lsblk` first to confirm which device is which.
+
+	`dd` stands for data definition
+
 12. `diff -u` shows what changed between two files, and `patch` applies those changes to another copy (how source code changes are shared). `file` reports the real type of a file from its contents, since Linux doesn’t trust extensions.
 13. `df -h` (which partition is full), then `du -sh *` or `du -h -d1 /path` (which folder is big). Free space safely by deleting old checkpoints you’ve confirmed you don’t need, or by compressing or moving them (`tar czvf`, then `rsync` to another machine). Check twice before deleting.
 
