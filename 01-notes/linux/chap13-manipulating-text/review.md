@@ -14,12 +14,12 @@
 **Sorting, counting, splitting**  
 7. Why must you `sort` before `uniq`? Write the pipeline that shows the most frequent lines in `errors.log` first. What does `sort -k 3` do, and why add `n`?  🎯
 8. `paste` vs `join` vs `cat`: how does each combine files? What must be true of the inputs to `join`?  🎯
-9. Write the command to split `big.csv` into chunks of 100,000 lines with the prefix `part_`, then rejoin them, then verify the line counts.
+9. Write the command to split `big.csv` into chunks of 100,000 lines with the prefix `part_`, then rejoin them, then verify the line counts. 🎯
 
 ---
 NOT DONE
 
-10. What do `wc -l`, `-w`, `-c`, and `-m` count? Write a command that counts the files in a folder.
+10. What do `wc -l`, `-w`, `-c`, and `-m` count? Write a command that counts the files in a folder. 🎯
 
 **Patterns and cleaning**  
 11. What do `.`, `*`, `^`, and `$` mean in a regex? Explain `..$`, `^..`, and `l.*y`. Why does `grep 'b.|j.'` fail, and how do you fix it?  

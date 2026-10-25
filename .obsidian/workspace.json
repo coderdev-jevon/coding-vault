@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "dfa2c2c214046b29",
+        "id": "e975dbbee9d4504d",
         "type": "tabs",
         "children": [
           {
-            "id": "530305cd0586cae6",
+            "id": "2c0114621057d74e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-weekly-summary/20261019-20261026/20261023.md",
+                "file": "01-notes/linux/chap17-printing/17-0-guidelines.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20261023"
-            }
-          },
-          {
-            "id": "2eae3212e406cf77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-notes/linux/chap15-bash-shell-and-basic-scripting/15-0-guidelines.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "15-0-guidelines"
-            }
-          },
-          {
-            "id": "d92217a70706c94d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-notes/linux/chap11-text-editors/review.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review"
+              "title": "17-0-guidelines"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,14 +186,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "d92217a70706c94d",
+  "active": "2c0114621057d74e",
   "lastOpenFiles": [
-    "01-notes/linux/chap10-file-operations/review.md",
-    "01-notes/linux/chap15-bash-shell-and-basic-scripting/15-0-guidelines.md",
-    "05-weekly-summary/20261019-20261026/20261023.md",
-    "05-weekly-summary/daily-log-template.md",
-    "05-weekly-summary/20261019-20261026/20261021.md",
+    "01-notes/linux/chap17-printing/17-0-guidelines.md",
+    "01-notes/linux/chap17-printing.md",
+    "01-notes/linux/chap17-printing",
+    "01-notes/linux/chap16-more-on-bash-shell-scripting/16-1-bash-shell-scripting.md",
+    "05-weekly-summary/20261019-20261026/20261025.md",
+    "01-notes/linux/chap16-more-on-bash-shell-scripting/16-0-guidelines.md",
     "01-notes/linux/chap15-bash-shell-and-basic-scripting/15-3-constructs.md",
+    "01-notes/linux/chap15-bash-shell-and-basic-scripting/15-0-guidelines.md",
+    "01-notes/linux/chap16-more-on-bash-shell-scripting",
+    "05-weekly-summary/daily-log-template.md",
+    "01-notes/linux/images/testing-for-files-shell-scripts.png",
+    "01-notes/linux/chap11-text-editors/review.md",
+    "05-weekly-summary/20261019-20261026/20261024.md",
+    "05-weekly-summary/20261019-20261026/20261023.md",
+    "01-notes/linux/chap13-manipulating-text/review.md",
+    "01-notes/linux/chap12-user-environment/review.md",
+    "01-notes/linux/chap10-file-operations/review.md",
+    "05-weekly-summary/20261019-20261026/20261021.md",
     "01-notes/linux/chap15-bash-shell-and-basic-scripting/15-2-syntax.md",
     "01-notes/linux/chap9-processes/review.md",
     "01-notes/linux/chap8-finding-linux-documentation/review.md",
@@ -236,17 +219,8 @@
     "01-notes/linux/chap6-common-applications/review.md",
     "01-notes/linux/chap6-common-applications/6.1-linux-applications.md",
     "05-weekly-summary/20261019-20261026/20261020.md",
-    "01-notes/c-language/2-C语言基础知识.md",
-    "01-notes/linux/chap5-system-configuration-from-graphical-interface/review.md",
-    "01-notes/linux/chap4-graphical-interface/review.md",
-    "05-weekly-summary/20261019-20261026/20261019.md",
     "05-weekly-summary/20261019-20261026",
     "01-notes/linux/images/shell-scripts-basic-syntax.png",
-    "01-notes/linux/chap3-linux-basics-and-system-startup/review.md",
-    "05-weekly-summary/20261012-20261019/20261018.md",
-    "01-notes/linux/chap2-linux-philosophy-and-concepts/review.md",
-    "01-notes/linux/chap14-network-operations/14-4-file-transfer-protocol.md",
-    "01-notes/linux/chap14-network-operations/14-0-guidelines.md",
     "01-notes/linux/chap15-bash-shell-and-basic-scripting",
     "Pasted image 20261018095126.png",
     "Pasted image 20261018095022.png",
@@ -257,11 +231,8 @@
     "Pasted image 20260923141104.png",
     "Pasted image 20260917092226.png",
     "Pasted image 20260917092217.png",
-    "Pasted image 20260917092059.png",
     "01-notes/linux/chap14-network-operations",
     "01-notes/linux/chap13-manipulating-text",
-    "01-notes/linux/chap12-user-environment",
-    "01-notes/auto-cad/images",
-    "01-notes/auto-cad"
+    "01-notes/linux/chap12-user-environment"
   ]
 }
