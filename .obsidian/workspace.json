@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-weekly-summary/20261026-20261102/20261027.md",
+                "file": "05-weekly-summary/20261026-20261102/20261028.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20261027"
+              "title": "20261028"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,11 +200,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "e5081694cb0535df",
+  "active": "5ab7fe16604b905b",
   "lastOpenFiles": [
+    "05-weekly-summary/20261026-20261102/20261028.md",
     "01-notes/linux/chap18-local-security-principles/18-1-understanding-linux-security.md",
-    "05-weekly-summary/20261026-20261102/20261027.md",
+    "01-notes/linux/images/sudo-command-logging-example.png",
+    "01-notes/linux/images/1.png",
     "05-weekly-summary/daily-log-template.md",
+    "05-weekly-summary/20261026-20261102/20261027.md",
     "01-notes/linux/chap18-local-security-principles/18-0-guidelines.md",
     "01-notes/linux/chap17-printing/17-printing.md",
     "01-notes/linux/chap18-local-security-principles",
@@ -232,8 +234,6 @@
     "01-notes/linux/chap10-file-operations/review.md",
     "05-weekly-summary/20261019-20261026/20261021.md",
     "01-notes/linux/chap15-bash-shell-and-basic-scripting/15-2-syntax.md",
-    "01-notes/linux/chap9-processes/review.md",
-    "01-notes/linux/chap8-finding-linux-documentation/review.md",
     "01-notes/c-language/images/标识符-关键字.png",
     "01-notes/c-language/images/整型变量.png",
     "05-weekly-summary/20261019-20261026",
@@ -246,8 +246,6 @@
     "01-notes/linux/images/ip-addr-output.png",
     "05-weekly-summary/20261005-202061012",
     "Pasted image 20260923141104.png",
-    "Pasted image 20260917092226.png",
-    "Pasted image 20260917092217.png",
     "01-notes/linux/chap14-network-operations"
   ]
 }
