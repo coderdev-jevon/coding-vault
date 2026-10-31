@@ -152,6 +152,62 @@ sudo su newuser # you -> root -> newuser
 
 ssh newuser@localhost # connects to local SSh server
 ```
-## ==🔵Safe Working Environment Protocol==
 ---
-1. Remove inactive accounts 
+## ==🔵Working with Passwords==
+---
+#### ==Where Passwords is Stored?==
+In older system, encrypted password is stored in `/etc/passwd` and can be viewed by everyone.
+
+In modern system, encrypted password is stored in `/etc/shadow` and can only be viewed by root.
+
+#### ==Password Encryption==
+The most tested hashing algorithm is SHA-512 (Secure Hash Algorithm). 
+```bash
+echo -n test | sha512sum # -n means no new line, sha512 receive file input, sum means checksum
+```
+#### ==Good Password Practices==
+1. Password aging - create new password after a specific period
+	```bash
+	chage -l # stands for change age, show aging information
+	```
+2. Force users to set strong passwords using Pluggable Authentication Modules (PAM)
+3. Install password cracking programs, such as John The Ripper, to identify weak passwords
+
+---
+## ==🔵Securing the Boot Process and Hardware Resources==
+---
+#### ==Requiring Boot Loader Passwords==
+Boot loader password stop a user changing how the system boots, by locking GRUB menu. It was quite complicated to edit password in GRUB version 2, but the features are more vary
+
+```bash
+# Edit in
+/etc/grub.d/
+/etc/default/grub
+
+# Then
+update-grub
+```
+
+
+
+However, it does not stop user booting from alternative media. So, user must used BIOS password for full protection.
+
+`Power on -> BIOS/UEFI -> Boot loader (GRUB) -> Kernel -> Login`
+
+#### ==Hardware Vulnerability==
+Potential attack:
+1. Key logging - real-time activity of computer user
+2. Network sniffing - capturing and viewing the network packet movement
+3. Boot a live USB
+4. Remounting and modifying disk content
+
+Defending protocols:
+1. Lock down work stations and servers
+2. Protect network links
+3. Protect keyboards from tampering
+4. Add BIOS password
+
+#### ==Software Vulnerability==
+Linux is fast in exposing and fixing vulnerabilities.
+
+---
